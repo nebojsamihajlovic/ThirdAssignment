@@ -21,13 +21,6 @@ class BioViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func btnUrl1Click(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string: "http://www.google.com")!, options: [:], completionHandler: nil)
-    }
-
-    @IBAction func btnUrl2Click(_ sender: UIButton) {        
-        UIApplication.shared.open(URL(string: "http://www.yahoo.com")!, options: [:], completionHandler: nil)
-    }
     /*
     // MARK: - Navigation
 
